@@ -134,6 +134,7 @@
     </section>
     <section id="projects" class="projects">
         <h2>Projects</h2>
+
         <div id="i2VPN" class="item_1">
             <h3>i2VPN</h3>
             <p>Fast Secure VPN Application</p>
@@ -152,12 +153,65 @@
             </p>
         </div>
 
+        <div id="enaya" class="item_1">
+            <h3>Enaya</h3>
+            <p>Application provides services to tenant users</p>
+            <p align="center" style="margin-top: 20px;">
+                <image src="images/enaya_1.webp" width="40%">
+                <image src="images/enaya_2.webp" width="40%">
+            </p>
+        </div>
+
+        <div id="TDALAL" class="item_1">
+            <h3>TDALAL</h3>
+            <p>e-commerce application</p>
+            <p align="center" style="margin-top: 20px;">
+                <image src="images/tdalal_1.webp" width="40%">
+                <image src="images/tdalal_2.webp" width="40%">
+            </p>
+        </div>
+
+        <div id="InTVPlayer" class="item_1">
+            <h3>InTV Player</h3>
+            <p>IPTV Player For Android TV</p>
+            <p align="center" style="margin-top: 20px;">
+                <image src="images/tdalal_1.webp" width="40%">
+                <image src="images/tdalal_2.webp" width="40%">
+            </p>
+        </div>
+
+        <div id="OnTimeVPN" class="item_1">
+            <h3>On Time VPN</h3>
+            <p>Fast Secure VPN Application</p>
+            <p align="center" style="margin-top: 20px;">
+                <image src="images/on_time_vpn_1.webp" width="40%">
+                <image src="images/on_time_vpn_2.webp" width="40%">
+            </p>
+        </div>
+
+        <div id="NoTraceVPN" class="item_1">
+            <h3>No Trace VPN</h3>
+            <p>Fast Secure VPN Application</p>
+            <p align="center" style="margin-top: 20px;">
+                <image src="images/no_trace_vpn_1.webp" width="40%">
+                <image src="images/no_trace_vpn_2.webp" width="40%">
+            </p>
+        </div>
+
+        <div id="YouLinkVPN" class="item_1">
+            <h3>You Link VPN</h3>
+            <p>Fast Secure VPN Application</p>
+            <p align="center" style="margin-top: 20px;">
+                <image src="images/you_link_vpn_1.webp" width="40%">
+                <image src="images/you_link_vpn_2.webp" width="40%">
+            </p>
+        </div>
+
     </section>
     <section id="contact" class="contact">
         <h2>Contact</h2>
-        <p>If you'd like to collaborate or have any questions, feel free to reach out!</p>
-        <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+        <p>Email: <a href="mailto:azzamhabib97@gmail.com">azzamhabib97@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/azzam-habib-1a49a719a/" target="_blank">azzam-habib</a></p>
     </section>
     <footer>
         <p>&copy; 2025 Your Name. All Rights Reserved.</p>
@@ -170,6 +224,35 @@
     });
     document.getElementById('dawi').addEventListener('click', function () {
         window.open('https://play.google.com/store/apps/details?id=net.dawi.app', '_blank'); // Opens in a new tab
+    });
+    document.getElementById('enaya').addEventListener('click', function () {
+    // Create a link for the first URL
+    const googlePlayLink = document.createElement('a');
+    googlePlayLink.href = 'https://play.google.com/store/apps/details?id=com.enayakw.app';
+    googlePlayLink.target = '_blank';
+    googlePlayLink.rel = 'noopener noreferrer';
+    document.body.appendChild(googlePlayLink);
+    googlePlayLink.click();
+    document.body.removeChild(googlePlayLink); // Clean up
+
+    // Create a link for the second URL
+    const appStoreLink = document.createElement('a');
+    appStoreLink.href = 'https://apps.apple.com/us/app/enaya-%D8%B9%D9%86%D8%A7%D9%8A%D8%A9/id6443451507';
+    appStoreLink.target = '_lank';
+    appStoreLink.rel = 'noopener noreferrer';
+    document.body.appendChild(appStoreLink);
+    appStoreLink.click();
+    document.body.removeChild(appStoreLink); // Clean up
+});
+    document.getElementById('TDALAL').addEventListener('click', function () {
+        window.open('https://apkpure.com/tdalal-app/com.kw.tdalal', '_blank'); // Opens in a new tab
+        window.open('https://apps.apple.com/us/app/enaya-%D8%B9%D9%86%D8%A7%D9%8A%D8%A9/id6443451507', '_lank'); // Opens in a new tab
+    });
+    document.getElementById('InTVPlayer').addEventListener('click', function () {
+        window.open('https://play.google.com/store/apps/details?id=com.intvplay.pro', '_blank'); // Opens in a new tab
+    });
+    document.getElementById('OnTimeVPN').addEventListener('click', function () {
+        window.open('https://apkpure.com/on-time-vpn/com.ontimevpn.vpn', '_blank'); // Opens in a new tab
     });
 </script>
 
